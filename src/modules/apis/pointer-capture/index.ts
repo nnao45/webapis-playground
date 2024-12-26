@@ -7,7 +7,8 @@ function onPointerMove(event: React.PointerEvent<Element>) {
   if (flag) {
     const rect = timeline.getBoundingClientRect();
     timeline.style.width = `${event.clientX - rect.left}px`;
-    const childTag = document.querySelector('#dot') as HTMLElement;
+    console.log(event.clientX)
+    const childTag = document.querySelector(event.clientX > 1000 ? '#dot' : '#dot2') as HTMLElement;
     childTag.style.left = `${event.clientX - rect.left - 20}px`;
   }
 }

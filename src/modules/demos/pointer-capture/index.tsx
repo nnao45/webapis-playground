@@ -74,6 +74,10 @@ function PointerCapture() {
               id="dot"
               className="tw-absolute tw-bg-red-700 tw-h-7 tw-w-7 tw-rounded-full tw--top-1 tw-left-4"
             ></div>
+            <div
+              id="dot2"
+              className="tw-absolute tw-bg-blue-700 tw-h-7 tw-w-7 tw-rounded-full tw--top-1 tw-left-4"
+            ></div>
           </div>
         </div>
       </div>
